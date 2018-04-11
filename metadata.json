@@ -4,8 +4,8 @@
   "author": "Ricardo Franzen",
   "summary": "Manages OpenVPN",
   "license": "Apache-2.0",
-  "source": "git@gitlab.com:rfranzen/puppet-openvpn.git",
-  "project_page": "https://gitlab.com/rfranzen/puppet-openvpn",
+  "source": "git@github.com:rdfranzen/puppet-openvpn.git",
+  "project_page": "https://github.com/rdfranzen/puppet-openvpn",
   "tags": ["puppet5","openvpn","openvpn server","openvpn client","hiera","vpn"],
   "dependencies": [
 
