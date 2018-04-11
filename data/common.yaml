@@ -1,0 +1,15 @@
+---
+openvpn::package_name: openvpn
+openvpn::service_name: openvpn
+openvpn::conf_dir: /etc/openvpn
+openvpn::client_status_dir: /var/log/openvpn
+openvpn::client_dev: tap
+openvpn::client_protocol: udp
+openvpn::client_port: 1194
+openvpn::client_persist_key: true
+openvpn::client_persist_tun: true
+openvpn::client_compression: comp-lzo
+openvpn::client_mtu_test: false
+openvpn::client_fast_io: false
+openvpn::client_float: false
+openvpn::client_verbose: 3

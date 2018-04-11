@@ -1,0 +1,37 @@
+# Managed by puppet - do not modify
+
+client
+dev <%= @dev %>
+proto <%= @protocol %>
+remote <%= @server %> <%= @port %>
+resolv-retry <%= @resolv_retry %>
+<% if @bind -%>
+bind <%= @bind %>
+<% end -%>
+<% if @persist_key -%>
+persist-key
+<% end -%>
+<% if @persist_tun -%>
+persist-tun
+<% end -%>
+ca <%= @ca %>
+cert <%= @cert %>
+key <%= @key %>
+<% if @ns_cert_type -%>
+ns-cert-type <%= @ns_cert_type %>
+<% end -%>
+<% if @cipher -%>
+cipher <%= @cipher %>
+<% end -%>
+<%= @compression %>
+<% if @mtu_test -%>
+mtu-test
+<% end -%>
+<% if @fast_io -%>
+fast-io
+<% end -%>
+<% if @float -%>
+float
+<% end -%>
+verb <%= @verbose %>
+status <%= @status_dir %>/<%= @name %>.log

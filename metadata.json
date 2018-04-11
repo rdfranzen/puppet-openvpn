@@ -1,0 +1,37 @@
+{
+  "name": "rfranzen-openvpn",
+  "version": "0.1.0",
+  "author": "Ricardo Franzen",
+  "summary": "Manages OpenVPN",
+  "license": "Apache-2.0",
+  "source": "git@gitlab.com:rfranzen/puppet-openvpn.git",
+  "project_page": "https://gitlab.com/rfranzen/puppet-openvpn",
+  "tags": ["puppet5","openvpn","openvpn server","openvpn client","hiera","vpn"],
+  "dependencies": [
+
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.4.1",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+  "template-ref": "1.4.1-0-g52adbbb"
+}
