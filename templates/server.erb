@@ -1,0 +1,74 @@
+# Managed by puppet - do not modify
+
+<% if @dh -%>
+dh <%= @dh %>
+<% end -%>
+<% if @ca -%>
+ca  <%= @ca %>
+<% end -%>
+<% if @cert -%>
+cert <%= @cert %>
+<% end -%>
+<% if @crl_verify -%>
+crl-verify <%= @crl_verify %>
+<% end -%>
+
+<% if @client_to_client -%>
+client-to-client
+<% end -%>
+<% if @server -%>
+server <%= @server %>
+<% end -%>
+
+<% if @port -%>
+port <%= @port %>
+<% end -%>
+<% if @protocol -%>
+proto <%= @protocol %>
+<% end -%>
+<% if @dev -%>
+dev <%= @dev %>
+<% end -%>
+<% if @persist_key -%>
+persist-key
+<% end -%>
+<% if @persist_tun -%>
+persist-tun
+<% end -%>
+
+<% if @float -%>
+float
+<% end -%>
+<% if @compression -%>
+<%= @compression %>
+<% end -%>
+
+<% if @log_append -%>
+log-append <%= @log_append %>
+<% end -%>
+<% if @status -%>
+status <%= @status %>
+<% end -%>
+<% if @status_version -%>
+status-version <%= @status_version %>
+<% end -%>
+<% if @verbose -%>
+verb <%= @verb %>
+<% end -%>
+<% if @writepid -%>
+writepid <%= @writepid %>
+<% end -%>
+
+<% if @openvpn_group -%>
+group <%= @openvpn_group %>
+<% end -%>
+<% if @openvpn_user -%>
+user <%= @openvpn_ser %>
+<% end -%>
+
+<% if @ifconfig_pool_persist -%>
+ifconfig-pool-persist <%= @ifconfig_pool_persist %>
+<% end -%>
+<% if @keepalive -%>
+keepalive <%= @keepalive %>
+<% end -%>

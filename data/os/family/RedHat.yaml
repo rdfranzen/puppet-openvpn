@@ -1,1 +1,4 @@
 ---
+openvpn::package_name: openvpn
+openvpn::service_name: openvpn
+openvpn::conf_dir: /etc/openvpn

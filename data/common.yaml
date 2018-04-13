@@ -1,7 +1,29 @@
 ---
+## Package and configuration parameters
 openvpn::package_name: openvpn
 openvpn::service_name: openvpn
 openvpn::conf_dir: /etc/openvpn
+
+## Server parameters
+openvpn::server_client_to_client: false
+openvpn::server_port: 1194
+openvpn::server_protocol: udp
+openvpn::server_dev: tap
+openvpn::server_persist_key: true
+openvpn::server_persist_tun: true
+openvpn::server_float: true
+openvpn::server_compression: comp-lzo
+openvpn::server_log_append: /var/log/openvpn.log
+openvpn::server_status: /var/log/openvpn-status.log
+openvpn::server_status_version: 3
+openvpn::server_verbose: 3
+openvpn::server_writepid: /var/run/openvpn.pid
+openvpn::server_openvpn_group: openvpn
+openvpn::server_openvpn_user: openvpn
+openvpn::server_ifconfig_pool_persist: ipp.txt
+openvpn::server_keepalive: 10 120
+
+## Client parameters
 openvpn::client_status_dir: /var/log/openvpn
 openvpn::client_dev: tap
 openvpn::client_protocol: udp

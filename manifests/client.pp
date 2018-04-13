@@ -1,6 +1,6 @@
 # openvpn::client
 #
-# Create a new client config file
+# Definitions of a client config file
 #
 # @summary ...
 #
