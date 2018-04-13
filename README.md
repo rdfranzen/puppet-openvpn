@@ -5,7 +5,7 @@
 #### Table of Contents
 
 1. [Overview](#overview)
-2. [Supported Platforms] (#supported-platforms)
+2. [Supported Platforms](#supported-platforms)
 3. [Installation](#installation)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Author/Contributors](#author-contributors)
